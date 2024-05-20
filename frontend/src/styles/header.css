@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #a1cceb;
+}
+
+.header .logo {
+  height: 100%;
+  width: auto;
+  max-width: 100%; 
+  margin-left: 80px;
+  padding: 5px;
+  object-fit: contain; 
+} */
+
+.header .logo:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 5cqw;
+}
+
+.buttons button {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border: none;
+  
+  color: #500412;
+  background-color: #a1cceb;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+}
+
+.buttons button:hover {
+  color: #a1cceb;
+  background-color: #500412;
+}
+
+.user-type {
+  margin-left: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  padding: 5px;
+  border: 2px solid #500412;
+  color: #500412;
+  background-color: #a1cceb;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  width: 100px;
+  height: 40px;
+}
+
+.user-type:hover {
+  color: #a1cceb;
+  background-color: #500412;
+}
+
+.user-type option:hover {
+  color: #a1cceb;
+  background-color: rgb(80, 4, 18);
+}
+
+.loginbtn {
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+#logout-button {
+  border-right: none;
+}
+
+#login-btn {
+  border: 2px solid #500412;
+  margin-left: 15px;
+}
+
+#appointments {
+  padding-left: 20px;
+}
+
+.mobile {
+  display: none;
+}
+
+.mobile-buttons {
+  display: none;
+}
+
+.login-buttons {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 914px) {
+  .header .logo {
+    height: 100px;
+    width: 215px;
+    margin-left: 30px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+  }
+}
+
+ @media only screen and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header .logo {
+    height: 100px;
+    width: 215px;
+    margin-left: 30px;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .mobile {
+    display: inherit;
+    color: #500412;
+    margin-right: 30px;
+  }
+
+  .mobile:hover { 
+    color: grey;
+  }
+    
+  .mobile-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: sticky;
+    margin-right: 0px;
+    z-index: 2;
+  }
+
+  .mobile-buttons button {
+    font-size: 15px;
+    border-right: none;
+    width: 160px;
+    text-align: left;
+    padding-left: 20px;
+    color: #500412;
+    background-color: #a1cceb;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+  }
+
+  .mobile-buttons button:hover {
+    color: #a1cceb;
+    background-color: #500412;
+  }
+
+  .login-buttons {
+    display: inherit;
+    margin-right: 0;
+  }
+
+  .login-buttons button {
+    font-size: 15px;
+    text-align: center;
+    color: #500412;
+    background-color: #a1cceb;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    border: none;
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+  }
+
+  .login-buttons button:hover {
+    color: #a1cceb;
+    background-color: #500412;
+  } 
+}

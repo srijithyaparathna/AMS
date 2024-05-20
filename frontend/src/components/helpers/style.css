@@ -1,0 +1,110 @@
+.buttons {
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 0;
+  width: 160px;
+}
+
+.dropdown-button {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  min-width: 160px;
+ border: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  color: #500412;
+  background-color: #a1cceb;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  height: 40px;
+}
+
+#login-dropdown {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  min-width: 160px;
+  border: 2px solid #500412;
+  color: #500412;
+  background-color: #a1cceb;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  height: 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  z-index: 2;
+}
+
+.dropdown-content button {
+  width: 160px;
+  height: 40px;
+}
+.dropdown-item {
+  color: #500412;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  width: 160px;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-button {
+  background-color: #500412;
+  color: #a1cceb;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown {
+    width: 20px;
+  }
+
+  .dropdown-content {
+    right: 100%;
+    top: 0;
+  }
+
+  #login-dropdown {
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+    min-width: 80px;
+    border: 2px solid #500412;
+    color: #500412;
+    background-color: #a1cceb;
+    transition-property: color, background-color;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    height: 40px;
+  }
+
+  #login-dropdown:hover {
+    color: #a1cceb;
+    background-color: #500412;
+
+  }
+  
+}

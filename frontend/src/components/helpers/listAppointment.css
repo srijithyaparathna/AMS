@@ -1,0 +1,81 @@
+.apt-description .appointment-header {
+  background-color: #CCFFCB;
+  font-weight: 400;
+  transition: all 0.5s ease;
+}
+
+.apt-description .appointment-header:hover {
+  box-shadow: #333 0px 0px 10px;
+}
+
+.apt-description .apt-number-val {
+  font-weight: 400;
+  font-size: 18px;
+  color: #333;
+  background-color: aliceblue;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apt-description .apt-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apt-description .apt-student div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.apt-description .apt-reason div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 10px;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.apt-description .apt-reason .subject {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.apt-description .apt-details div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.apt-description .apt-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: center;
+}

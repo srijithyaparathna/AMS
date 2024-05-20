@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+.lec-signup {
+  height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.back-img {
+  height: calc(100vh - 160px);
+  width: 50%;
+}
+
+.back-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.signup-form {
+  margin-top: 78px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.std-signup-form {
+  margin-top: 78px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #500412;
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+input {
+  background-color: #d2e2e9;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding: 0;
+  padding-left: 17px;
+  position: relative;
+  width: 450px;
+}
+
+label {
+  margin-left: -99999px;
+}
+
+.submit-btn {
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #500412;
+  color: #d2e2e9;
+  height: 40px;
+  font-size: 20px;
+  width: 130px;
+  margin-top: 50px;
+}
+
+.submit-btn:hover {
+  background-color: #d2e2e9;
+  color: #500412;
+  border: 1px solid #500412;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.google-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #df8544;
+  color: #fff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  margin-top: 10px;
+}
+
+.google-btn:hover {
+  background-color: #db9539;
+  color: #eee7e3;
+  border: 1px solid #df8544;
+  cursor: pointer;
+}
+
+.google-icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.google-btn p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.nav-btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.back-btn {
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #500412;
+  color: #d2e2e9;
+  height: 40px;
+  font-size: 20px;
+  width: 130px;
+  margin-top: 50px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.continue-btn {
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #500412;
+  color: #d2e2e9;
+  height: 40px;
+  font-size: 20px;
+  width: 130px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.login-form {
+  margin-top: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  margin-top: 40px;
+}
+
+.verification-form {
+  margin-top: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #500412;
+  margin-bottom: 20px;
+  width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.code input {
+  width: 70px;
+  margin: 10px;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+.verification-form p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.verify-btn {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+.verify-btn:hover {
+  background-color: #500412;
+  opacity: 0.9;
+}
+
+.detail-form {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+.detail-form h2 {
+  font-size: 30px;
+}
+
+.department {
+  background-color: #d2e2e9;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding: 0;
+  padding-left: 17px;
+  position: relative;
+  width: 450px;
+}
+
+.std-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.reg-number {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.reg-no {
+  margin-left: -43px;
+  width: 300px;
+}
+
+.batch {
+  background-color: #d2e2e9;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding: 0;
+  padding-left: 17px;
+  position: relative;
+  width: 100px;
+  margin-left: 50px;
+  margin-right: -45px;
+}
+
+.std-name input {
+  width: 215px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+
+.Lname {
+  margin-left: 20px;
+}
+
+.std-signup-form {
+  margin-top: 140px;
+}
+
+@media only screen and (max-width: 576px) {
+  .lec-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lec-signup input {
+    width: 400px;
+    font-size: 16px;
+  }
+
+  .back-img {
+    display: none;
+  }
+
+  .std-name input {
+    width: 190px;
+    font-size: 16px;
+  }
+
+  .batch {
+    font-size: 16px;
+  }
+
+  .department {
+    font-size: 16px;
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+  .lec-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lec-signup input {
+    font-size: 16px;
+  }
+
+  .back-img {
+    display: none;
+  }
+
+  .std-name input,
+  .batch,
+  .department,
+  .reg-number input {
+    font-size: 16px;
+  }
+}

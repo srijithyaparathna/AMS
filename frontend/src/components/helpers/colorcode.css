@@ -1,0 +1,63 @@
+.stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  height: 100px;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 2px solid #86898b;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ffd700;
+}
+
+.blocked {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 2px solid #86898b;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ff6347;
+}
+
+.confirmed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 2px solid #86898b;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #32cd32;
+}
+
+.unable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border: 2px solid #86898b;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #87cefa;
+}

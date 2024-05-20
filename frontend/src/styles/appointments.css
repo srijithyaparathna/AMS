@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+.appointments {
+  font-family: "Roboto Slab", serif;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #73a2c6;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+td {
+  font-size: 14px;
+  color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #d4f1f4;
+}
+
+tr:nth-child(odd) {
+  background-color: #f0ffe0;
+}
+
+.table-header {
+  text-align: left;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.regno {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.department,
+.batch {
+  font-size: 12px;
+  color: #888;
+}
+
+.reason,
+.appointment,
+.status {
+  font-weight: bold;
+  font-size: 13px;
+  color: #888;
+}
+
+.appointments .appointment-header {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 0;
+  background-color: #73a2c6;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.appointments .apt-number {
+  width: 5%;
+  border-left: none;
+}
+
+.appointments .apt-student {
+  width: 25%;
+  border-left: 2px solid #333;
+}
+
+.appointments .apt-reason {
+  width: 45%;
+  border-left: 2px solid #333;
+}
+
+.appointments .apt-details {
+  width: 25%;
+  border-left: 2px solid #333;
+}
+
+.appointments .apt-status {
+  width: 10%;
+  border-left: 2px solid #333;
+}
+
+.appointments .heading {
+  text-align: center;
+}

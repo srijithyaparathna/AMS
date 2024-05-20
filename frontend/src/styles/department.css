@@ -1,0 +1,43 @@
+.department-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.dep-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.abbr-name {
+  margin-left: 10px;
+  font-size: 60px;
+}
+
+.long-name {
+  width: 400px;
+  margin-left: 15px;
+}
+
+.search {
+  margin-right: 50px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #d3e3e9;
+  margin-top: 20px;
+  min-height: 100vh;
+}
